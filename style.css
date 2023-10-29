@@ -1,0 +1,153 @@
+
+*{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-color: gainsboro;
+    background-position: top center;
+    position: relative;
+}
+
+
+h3{
+    color:black;
+    font-size:35px;
+    
+}
+span{
+    color:brown;
+}
+
+nav{
+    display:flex;
+    width: 84%;
+    margin: auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content: space-between;
+
+
+}
+nav ul li{
+    display :inline-block;
+    list-style:none;
+    margin:10px 20px;
+    }
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color:brown;
+}
+
+.content{
+    position: absolute;
+    top:50%;
+    left:15%;
+    transform: translateY(-50%);
+}
+/* about section*/
+.about  {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    grid-gap: 2rem;
+
+    
+}
+.about .section-tittle{
+    font-weight: 100;
+    color: black;
+
+
+}
+.about .img-about::after{
+    position:relative;
+    border:10px solid snow;
+    height: 100%;
+    width: 50%;
+}
+.about .img-about::after{
+    content:'';
+    position:absolute;
+    left: 629px;
+    height: 300px;
+    width: 150px;
+    border: 5px solid crimson;
+    z-index: -1;
+/* end of about section*/    
+
+}
+/*resume*/
+.cta {
+  text-decoration: none; 
+  color:black;
+  padding: 10px 30px;
+  font-weight: bolder; 
+  border: 1px solid crimson;
+  font-style: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+.cta:hover{
+    color:black;
+    background-color:crimson;
+}
+/*resume*/
+.title{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    grid-gap: 1rem;
+
+    
+
+}
+.title .section-title{
+    font-weight: 100;
+    color: black;
+    font-size:25px;
+
+}
+/*education sec*/
+
+
+/*contact sec*/
+.contact .section-title{
+    font-weight: 100;
+    font-size: 25px;
+}
+.contact {
+flex-direction: column;
+max-width: 1200px;
+margin: 0 auto;
+padding: 90px 20px;
+display: flex;
+grid-gap: 1rem;
+text-align: center;
+}
+
+.contact-info h4{
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-weight: 500;}
+
+
